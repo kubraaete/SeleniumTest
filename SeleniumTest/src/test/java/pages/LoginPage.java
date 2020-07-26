@@ -25,6 +25,8 @@ public class LoginPage {
 
 		driver.findElement(By.id("loginSubmit")).click();
 		
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
 		String title=driver.getTitle();
 		if("Kadýn, Moda, Giyim, Stil, Giyim Markalarý | Trendyol".equals(title)) {
 			System.out.println("Giriþ Yapýldý.");

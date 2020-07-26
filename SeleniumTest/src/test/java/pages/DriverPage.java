@@ -23,7 +23,6 @@ public class DriverPage {
 		
 		if(title.equals("En Trend Ürünler Türkiye'nin Online Alýþveriþ Sitesi Trendyol'da")) {
 			System.out.println("Trendyol Sayfasý Açýldý.");
-			driver.close();
 			
 		}
 		else {
